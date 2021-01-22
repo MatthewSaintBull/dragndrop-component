@@ -1,0 +1,17 @@
+.dnd-container {
+  position: relative;
+  width: 320px;
+  height: 128px;
+  border-radius: 45px;
+  border: 1px solid #707070;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.upload {
+
+  position: relative;
+  margin-top: 32px;
+  margin-left: 10px;
+  width: min-content;
+  height: min-content;
+}
