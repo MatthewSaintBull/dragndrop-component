@@ -1,5 +1,7 @@
 .dnd-container {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
   width: 320px;
   height: 128px;
   border-radius: 45px;
@@ -8,10 +10,20 @@
 }
 
 .upload {
-
-  position: relative;
-  margin-top: 32px;
+  flex-direction: row;
+  display: flex;
   margin-left: 10px;
-  width: min-content;
-  height: min-content;
+  flex: 0 0 100%;
+}
+
+.uploadImage {
+  display: flex;
+  flex: 0 0 64px;
+}
+
+.uploadLabel {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  flex: 1;
 }
