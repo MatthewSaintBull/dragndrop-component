@@ -8,7 +8,10 @@
   border: 1px solid #707070;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
-
+h3 {
+  font-family: "Segoe UI";
+  color: #707070
+}
 .upload {
   flex-direction: row;
   display: flex;
@@ -26,4 +29,15 @@
   align-self: center;
   display: flex;
   flex: 1;
+}
+
+.file-uploader {
+  position: absolute;
+  height: 140px;
+  width: 330px;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
