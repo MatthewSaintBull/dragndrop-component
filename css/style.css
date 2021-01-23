@@ -1,17 +1,43 @@
 .dnd-container {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
   width: 320px;
   height: 128px;
   border-radius: 45px;
   border: 1px solid #707070;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
-
+h3 {
+  font-family: "Segoe UI";
+  color: #707070
+}
 .upload {
-
-  position: relative;
-  margin-top: 32px;
+  flex-direction: row;
+  display: flex;
   margin-left: 10px;
-  width: min-content;
-  height: min-content;
+  flex: 0 0 100%;
+}
+
+.uploadImage {
+  display: flex;
+  flex: 0 0 64px;
+}
+
+.uploadLabel {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  flex: 1;
+}
+
+.file-uploader {
+  position: absolute;
+  height: 140px;
+  width: 330px;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
